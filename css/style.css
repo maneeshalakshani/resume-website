@@ -1,0 +1,292 @@
+.container{
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Sans-serif;
+}
+
+.title{
+    color: black;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.headerClass{
+    height: 600px;
+    background-image: url("../images/pic1.jpg");
+    background-repeat: repeat;
+    margin: -8px -8px 0px -8px;
+    padding-top: 200px;
+    margin-bottom: 60px;
+}
+
+
+a{
+    color: black;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.subtitle{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: Sans-serif;
+    color: black;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    grid-gap: 30px;
+}
+
+.grid-item {
+    /*background-color: #E8ADAA;*/
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid;
+}
+
+.grid-item:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.col{
+    width: 47%;
+    float: left;
+}
+
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+table, td, th{
+    border:1px solid black;
+}
+
+
+div img{
+    width: 350px;
+    margin: auto;
+}
+
+footer div div img{
+    width: 30px;
+    opacity: 0.7;
+    padding-right: 20px;
+}
+
+footer div div img:hover{
+    opacity: 100%;
+}
+
+#footerImg{
+    padding-left: 650px;
+}
+
+
+.footerClass{
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    background-color: pink;
+}
+
+#wpImg{
+    width: 20px;
+    padding-left: 780px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*
+*
+------------------Projects-----------------------------------------------------------------
+*
+*/
+
+.ProjectsheaderClass{
+    height: 250px;
+    background-image: url("../images/r.png"), url("../images/pink.png");
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    margin: -8px -8px 0px -8px;
+    padding-top: 150px;
+    margin-bottom: 60px;
+    background-color: pink;
+}
+
+.Projectstitle{
+    color: black;
+    font-size: 72px;
+    text-align: left;
+    background-color: white;
+    opacity: 0.7;
+    width: 45%;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+
+.Cardheader{
+    font-size: 40px;
+}
+
+.cardgrid{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-color: #6E0161;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+}
+
+
+#card:hover{
+    background-color: #3F0237;
+}
+
+
+#cardImg{
+    width: 400px;
+}
+
+#col1{
+    text-align: center;
+    background-color: gold;
+    padding: 40px;
+}
+
+#col2{
+    color: white;
+    padding: 50px;
+
+}
+
+#cardBtn{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 15px 50px;
+    margin-top: 30px;
+}
+
+#cardBtn:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border-color: yellow;
+}
+
+#tecImg{
+    width: 50px;
+}
+
+
+
+
+/**
+*
+*------------------Home Page-----------------------------------------
+*
+*/
+
+.HomeheaderClass{
+    height: 525px;
+    background-image: url("../images/pink.png"), url("../images/Maneesha Lakshani.png");
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    margin: -8px -8px 0px -8px;
+    padding-top: 200px;
+    margin-bottom: 60px;
+}
+
+
+.Hometitle1{
+    color: white;
+    font-size: 100px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    background-color: navy;
+    opacity: 0.3;
+    width: 40%;
+}
+
+.Hometitle2{
+    color: white;
+    font-size: 100px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: navy;
+    opacity: 0.3;
+    width: 40%;
+    padding-left: 200px;
+    margin-left: 100px;
+    margin-top: -40px
+}
+
+.HomeFooter{
+    height: 300px;
+    background-color: pink;
+    margin-bottom: -10px;
+    margin-left: -9px;
+    margin-right: -8px;
+    padding: 100px 150px;
+}
+
+.formDetails{
+    padding-bottom: 30px;
+}
+
+.inputField{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border:1px solid;
+    border-radius: 5px;
+}
+
+#SubmitBtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:0px;
+}
+
+#SubmitBtn:hover{
+    border:1px solid;
+}
