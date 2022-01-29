@@ -269,24 +269,71 @@ footer div div img:hover{
     padding: 100px 150px;
 }
 
-.formDetails{
-    padding-bottom: 30px;
+/*.formDetails{*/
+/*    padding-bottom: 30px;*/
+/*}*/
+
+/*.inputField{*/
+/*    width: 100%;*/
+/*    padding: 20px;*/
+/*    background-color: transparent;*/
+/*    border:1px solid;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#SubmitBtn{*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    border:0px;*/
+/*}*/
+
+/*#SubmitBtn:hover{*/
+/*    border:1px solid;*/
+/*}*/
+
+.technology-div{
+    padding: 0 400px;
+    margin-bottom: 60px;
 }
 
-.inputField{
-    width: 100%;
-    padding: 20px;
-    background-color: transparent;
-    border:1px solid;
-    border-radius: 5px;
+.tec-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*background-color: #3F0237;*/
 }
 
-#SubmitBtn{
-    padding: 10px 20px;
-    border-radius: 5px;
-    border:0px;
+.tec-item {
+    /*background-color: #E8ADAA;*/
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+
 }
 
-#SubmitBtn:hover{
-    border:1px solid;
+.technology-images{
+    width: 100px;
+}
+
+.contact-button{
+    text-align: center;
+    width: 300px;
+    padding: 20px 25px;
+    border: black;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    opacity: 60%;
+ }
+
+.contact-button:hover{
+    opacity: 100%;
+}
+
+.contact-popup{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
 }
