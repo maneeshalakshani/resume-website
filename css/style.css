@@ -17,7 +17,7 @@
 
 .headerClass{
     height: 600px;
-    background-image: url("images/pic1.jpg");
+    background-image: url("../images/pic1.jpg");
     background-repeat: repeat;
     margin: -8px -8px 0px -8px;
     padding-top: 200px;
@@ -137,7 +137,7 @@ footer div div img:hover{
 
 .ProjectsheaderClass{
     height: 250px;
-    background-image: url("images/r.png"), url("images/pink.png");
+    background-image: url("../images/r.png"), url("../images/pink.png");
     background-blend-mode: overlay;
     background-repeat: repeat;
     margin: -8px -8px 0px -8px;
@@ -225,7 +225,7 @@ footer div div img:hover{
 
 .HomeheaderClass{
     height: 525px;
-    background-image: url("images/pink.png"), url("images/Maneesha Lakshani.png");
+    background-image: url("../images/pink.png"), url("../images/Maneesha Lakshani.png");
     background-blend-mode: overlay;
     background-repeat: repeat;
     margin: -8px -8px 0px -8px;
@@ -269,7 +269,7 @@ footer div div img:hover{
     padding: 100px 150px;
 }
 
-#formDetails{
+.formDetails{
     padding-bottom: 30px;
 }
 
