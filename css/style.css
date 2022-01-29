@@ -174,28 +174,28 @@ footer div div img:hover{
 }
 
 
-#card:hover{
+.card:hover{
     background-color: #3F0237;
 }
 
 
-#cardImg{
+.cardImg{
     width: 400px;
 }
 
-#col1{
+.col1{
     text-align: center;
     background-color: gold;
     padding: 40px;
 }
 
-#col2{
+.col2{
     color: white;
     padding: 50px;
 
 }
 
-#cardBtn{
+.cardBtn{
     border-radius: 5px;
     color: white;
     background-color: black;
@@ -203,7 +203,7 @@ footer div div img:hover{
     margin-top: 30px;
 }
 
-#cardBtn:hover{
+.cardBtn:hover{
     background-color: black;
     color: white;
     opacity: 0.8;
