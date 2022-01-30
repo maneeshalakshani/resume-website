@@ -268,36 +268,14 @@ footer div div img:hover{
     margin-top: -40px
 }
 
-.HomeFooter{
-    height: 300px;
-    background-color: pink;
-    margin-bottom: -10px;
-    margin-left: -9px;
-    margin-right: -8px;
-    padding: 100px 150px;
-    text-align: center;
-}
-
-/*.formDetails{*/
-/*    padding-bottom: 30px;*/
-/*}*/
-
-/*.inputField{*/
-/*    width: 100%;*/
-/*    padding: 20px;*/
-/*    background-color: transparent;*/
-/*    border:1px solid;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-/*#SubmitBtn{*/
-/*    padding: 10px 20px;*/
-/*    border-radius: 5px;*/
-/*    border:0px;*/
-/*}*/
-
-/*#SubmitBtn:hover{*/
-/*    border:1px solid;*/
+/*.HomeFooter{*/
+/*    height: 300px;*/
+/*    background-color: pink;*/
+/*    margin-bottom: -10px;*/
+/*    margin-left: -9px;*/
+/*    margin-right: -8px;*/
+/*    padding: 100px 150px;*/
+/*    text-align: center;*/
 /*}*/
 
 .technology-div{
@@ -356,8 +334,9 @@ footer div div img:hover{
 }
 
 .contact-popup{
-    background-color: white;
-    border: 3px solid #f1f1f1;
+    background-color: #720666;
+    color: #f1f1f1;
+    border: 3px solid purple;
     border-radius: 10px;
     padding: 40px;
     width: 500px;
@@ -375,7 +354,7 @@ footer div div img:hover{
 }
 
 .model-elements{
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .modal-close-btn{
