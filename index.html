@@ -7,6 +7,8 @@
         <script type="text/javascript" src="js/scripts.js"></script>
     </head>
     <body>
+
+    <!--Navigation Bar Start-->
     <div>
         <div class="col subtitle"><b>Portfolio</b></div>
         <div class="col navbar">
@@ -16,29 +18,85 @@
             <a href="achievements.html">Achievements</a>
         </div>
     </div>
+    <!--Navigation Bar END-->
+
     <div class="HomeheaderClass">
         <h1 class="Hometitle1">Maneesha</h1>
         <h1 class="Hometitle2">Lakshani</h1>
     </div>
 
-    <div class="HomeFooter">
-        <div>
-            <form>
-                <div class="formDetails">
-                    <label for="name">Name(required)</label><br>
-                    <input id="name" class="inputField" type="text" name="name" placeholder="Enter Name" required>
-                </div>
-                <div class="formDetails">
-                    <label for="email">Email(required)</label><br>
-                    <input id="email" class="inputField" type="email" name="email" placeholder="Enter Email" required>
-                </div>
-                <div class="formDetails">
-                    <label for="message">Message</label><br>
-                    <textarea id="message" class="inputField" name="message" placeholder="Type Message"></textarea>
-                </div>
-                <input id="SubmitBtn" type="submit" value="Send Me" />
-            </form>
+
+    <div class="technology-div">
+        <div style="font-size: 60px; margin: 80px 0"><center>Technologies</center></div>
+        <div class="tec-container">
+            <div class="tec-item">
+                <img class="technology-images" src="images/eclipse.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/intelliJ.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/java.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/spring.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/git.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/html.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/css.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/Bootstrap.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/JS.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/sql.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/sublime.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/Wi.png" alt="tec">
+            </div>
+            <div class="tec-item">
+                <img class="technology-images" src="images/studio.png" alt="tec">
+            </div>
         </div>
     </div>
+
+    <!-- Modal START -->
+    <div class="modal" id="modal-id">
+        <div id="popup" class="contact-popup">
+            <div>
+                <div class="modal-close-btn" id="close-modal"><a href="#" onclick="closePopup()"><h1>+</h1></a></div>
+                <div class="model-elements"><h1>Contact Info</h1></div>
+                <div class="model-elements">+94-76-424-9664</div>
+                <div class="model-elements">maneshalakshani9@gmail.com</div>
+                <div class="model-elements">
+                    <a href="https://www.facebook.com"><img class="modal-image" src="images/fb.png" alt="fb"></a>
+                    <a href="https://www.facebook.com"><img class="modal-image" src="images/ig.png" alt="fb"></a>
+                    <a href="https://www.facebook.com"><img class="modal-image" src="images/IN.png" alt="fb"></a>
+                    <a href="https://www.facebook.com"><img class="modal-image" src="images/git.png" alt="fb"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal END -->
+
+
+    <!--START Footer-->
+    <div class="HomeFooter">
+        <div>
+            <button id="contact-button-id" class="contact-button" onclick="popupFunc()">Contact</button>
+        </div>
+    </div>
+    <!--Footer END-->
 </body>
 </html>

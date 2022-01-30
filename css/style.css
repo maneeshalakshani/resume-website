@@ -1,3 +1,11 @@
+html{
+    /*Make the .modal class parent class*/
+    display: flex;
+    /* What happens with children */
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     padding-top: 10px;
     padding-left: 150px;
@@ -29,7 +37,7 @@ a{
     color: black;
     padding-right: 10px;
     font-size: 20px;
-    font-family: Sans-serif;
+    font-family: Sans-serif, serif;
 }
 
 a:link{
@@ -267,26 +275,115 @@ footer div div img:hover{
     margin-left: -9px;
     margin-right: -8px;
     padding: 100px 150px;
+    text-align: center;
 }
 
-.formDetails{
-    padding-bottom: 30px;
+/*.formDetails{*/
+/*    padding-bottom: 30px;*/
+/*}*/
+
+/*.inputField{*/
+/*    width: 100%;*/
+/*    padding: 20px;*/
+/*    background-color: transparent;*/
+/*    border:1px solid;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#SubmitBtn{*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    border:0px;*/
+/*}*/
+
+/*#SubmitBtn:hover{*/
+/*    border:1px solid;*/
+/*}*/
+
+.technology-div{
+    padding: 0 400px;
+    margin-bottom: 60px;
 }
 
-.inputField{
+.tec-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*background-color: #3F0237;*/
+}
+
+.tec-item {
+    /*background-color: #E8ADAA;*/
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+
+}
+
+.technology-images{
+    width: 100px;
+}
+
+.contact-button{
+    text-align: center;
+    width: 300px;
+    padding: 20px 25px;
+    border: black;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    opacity: 0.7;
+    position:fixed;
+    bottom: 50px;
+    right: 200px;
+}
+
+.contact-button:hover{
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.modal{
     width: 100%;
-    padding: 20px;
-    background-color: transparent;
-    border:1px solid;
-    border-radius: 5px;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+
+    /*Make the .modal class parent class*/
+    display: none;
+    /* What happens with children */
+    justify-content: center;
+    align-items: center;
 }
 
-#SubmitBtn{
-    padding: 10px 20px;
-    border-radius: 5px;
-    border:0px;
+.contact-popup{
+    background-color: white;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 40px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    display: none;
+    z-index: 9;
+
+    /*the elements inside this class at relative to this class */
+    position: relative;
 }
 
-#SubmitBtn:hover{
-    border:1px solid;
+.modal-image{
+    width: 40px;
+}
+
+.model-elements{
+    padding: 15px 0;
+}
+
+.modal-close-btn{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    cursor: pointer;
+
+    /* Rotate + sign */
+    transform: rotate(45deg);
 }
