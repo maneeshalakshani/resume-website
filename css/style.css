@@ -1,3 +1,11 @@
+html{
+    /*Make the .modal class parent class*/
+    display: flex;
+    /* What happens with children */
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     padding-top: 10px;
     padding-left: 150px;
@@ -29,7 +37,7 @@ a{
     color: black;
     padding-right: 10px;
     font-size: 20px;
-    font-family: Sans-serif;
+    font-family: Sans-serif, serif;
 }
 
 a:link{
@@ -267,6 +275,7 @@ footer div div img:hover{
     margin-left: -9px;
     margin-right: -8px;
     padding: 100px 150px;
+    text-align: center;
 }
 
 /*.formDetails{*/
@@ -322,18 +331,59 @@ footer div div img:hover{
     border-radius: 10px;
     background-color: black;
     color: aliceblue;
-    opacity: 60%;
- }
+    opacity: 0.7;
+    position:fixed;
+    bottom: 50px;
+    right: 200px;
+}
 
 .contact-button:hover{
     opacity: 100%;
+    text-decoration: none;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+
+    /*Make the .modal class parent class*/
+    display: none;
+    /* What happens with children */
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-popup{
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
+    background-color: white;
     border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 40px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    display: none;
     z-index: 9;
+
+    /*the elements inside this class at relative to this class */
+    position: relative;
+}
+
+.modal-image{
+    width: 40px;
+}
+
+.model-elements{
+    padding: 15px 0;
+}
+
+.modal-close-btn{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    cursor: pointer;
+
+    /* Rotate + sign */
+    transform: rotate(45deg);
 }
