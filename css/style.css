@@ -1,3 +1,10 @@
+/*To set all the pages default margin and padding to o*/
+*{
+    margin: 0;
+}
+
+/*--------------------------------------------*/
+
 .container{
     padding-top: 10px;
     padding-left: 150px;
@@ -140,7 +147,7 @@ footer div div img:hover{
     background-image: url("../images/r.png"), url("../images/pink.png");
     background-blend-mode: overlay;
     background-repeat: repeat;
-    margin: -8px -8px 0px -8px;
+    /*margin: -8px -8px 0px -8px;*/
     padding-top: 150px;
     margin-bottom: 60px;
     background-color: pink;
@@ -228,7 +235,7 @@ footer div div img:hover{
     background-image: url("../images/pink.png"), url("../images/Maneesha Lakshani.png");
     background-blend-mode: overlay;
     background-repeat: repeat;
-    margin: -8px -8px 0px -8px;
+    /*margin: -8px -8px 0px -8px;*/
     padding-top: 200px;
     margin-bottom: 60px;
 }
@@ -257,7 +264,7 @@ footer div div img:hover{
     width: 40%;
     padding-left: 200px;
     margin-left: 100px;
-    margin-top: -40px
+    margin-top: 40px
 }
 
 /*.HomeFooter{*/
@@ -364,7 +371,44 @@ footer div div img:hover{
  **************************** Achievement Page **********************
  */
 
-
 .achievement-header{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#achievement-title{
+    color: coral;
+    font-size: 100px;
+    font-family: Sans-serif, serif;
+    padding: 50px 100px;
+}
+
+.col-fix{
+    width: 30%;
+    padding: 20px;
+    /*background-color: red;*/
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    /*position: fixed;*/
+}
+
+.col-scroll{
+    width: 70%;
+    padding: 20px;
+    /*background-color: navy;*/
+    position: relative;
+}
+
+.row-achievement{
+    display: flex;
+    /*background-color: black;*/
+    width: 100%;
+}
+
+.achievement-image{
+    position: fixed;
+    width: 250px;
 }
