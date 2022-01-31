@@ -293,10 +293,11 @@ footer div div img:hover{
 
 .contact-button{
     text-align: center;
-    width: 300px;
+    width: 100px;
+    height: 100px;
     padding: 20px 25px;
     border: black;
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: black;
     color: aliceblue;
     opacity: 0.7;
