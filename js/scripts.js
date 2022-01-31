@@ -17,3 +17,13 @@ function footerChange(){
     footer.style.backgroundColor = 'white';
     footer.style.marginTop = '30px';
 }
+
+function mouseOver(){
+    let x = document.getElementById('profile-image');
+    x.addEventListener('mouseover',function(){
+        x.style.opacity = '0.6';
+        x.addEventListener("mouseout", function (){
+            x.style.opacity = '1';
+        });
+    });
+}

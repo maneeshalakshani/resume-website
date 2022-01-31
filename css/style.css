@@ -382,7 +382,10 @@ footer div div img:hover{
     color: coral;
     font-size: 100px;
     font-family: Sans-serif, serif;
-    padding: 50px 100px;
+    padding: 25px 200px;
+    background-color: navy;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .col-fix{
@@ -395,10 +398,9 @@ footer div div img:hover{
     /*position: fixed;*/
 }
 
-.col-scroll{
+.col-scroll {
     width: 70%;
     padding: 20px;
-    /*background-color: navy;*/
     position: relative;
 }
 
@@ -409,6 +411,16 @@ footer div div img:hover{
 }
 
 .achievement-image{
-    position: fixed;
+    /*position: fixed;*/
     width: 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+}
+
+#title-for-image{
+    font-family: Sans-serif, serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    color: dimgrey;
 }
