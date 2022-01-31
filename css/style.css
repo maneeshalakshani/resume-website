@@ -379,7 +379,7 @@ footer div div img:hover{
 }
 
 #achievement-title{
-    color: coral;
+    color: #DCA6E0FF;
     font-size: 100px;
     font-family: Sans-serif, serif;
     padding: 25px 200px;
@@ -400,8 +400,8 @@ footer div div img:hover{
 
 .col-scroll {
     width: 70%;
-    padding: 20px;
     position: relative;
+    padding: 20px 50px 0 0;
 }
 
 .row-achievement{
@@ -423,4 +423,15 @@ footer div div img:hover{
     text-align: center;
     padding: 10px 0;
     color: dimgrey;
+}
+
+.achievement-elements{
+    font-size: 18px;
+    margin: 30px 0;
+    padding: 40px 0;
+}
+
+.elementH1{
+    margin-bottom: 10px;
+    background-color: rgb(220, 166, 224);
 }
