@@ -1,0 +1,22 @@
+div h1{
+    color: rgb(239, 124, 143);
+}
+
+img{
+    width: 40px;
+}
+
+img:hover{
+    background-color: pink;
+    border-radius: 50%;
+}
+
+div a{
+    text-decoration: none;
+    color: rgb(215, 75, 98);
+}
+
+div a:hover{
+    background-color: rgb(208, 162, 169);
+    color: white;
+}
